@@ -1,7 +1,7 @@
 import os
 
 import pytest
-from preparation.data_base import Component, Recipe, Item
+from data_base import Component, Recipe, Item
 from preparation.preparation import process_cook_book
 
 

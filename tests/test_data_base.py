@@ -1,7 +1,7 @@
 import os
 
 import pytest
-from preparation.data_base import DataBase, Component, Recipe, Item
+from data_base import DataBase, Component, Recipe, Item
 
 src_to_db = os.path.join(os.path.dirname(__file__), 'test.db')  # pragma: no cover
 

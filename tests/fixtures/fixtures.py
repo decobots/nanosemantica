@@ -1,8 +1,7 @@
 import os
-import time
 
 import pytest
-from preparation.data_base import DataBase, Recipe, Item, Component
+from data_base import DataBase
 from preparation.preparation import process_cook_book
 
 src_to_test_json = os.path.join(os.path.dirname(__file__), 'test_data', 'test.json')

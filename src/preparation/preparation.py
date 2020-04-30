@@ -4,7 +4,7 @@ import os
 from json import JSONDecodeError
 
 from logger import init_logging
-from src.preparation.data_base import DataBase, Recipe, Item, Component
+from data_base import DataBase, Recipe, Item, Component
 
 log = logging.getLogger()
 
