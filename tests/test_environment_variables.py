@@ -1,6 +1,6 @@
 import pytest
 
-from preparation.environment_variables import get_env
+from nanosemantica_app.preparation.environment_variables import get_env
 
 
 def test_environment_variables_correct(global_variable):

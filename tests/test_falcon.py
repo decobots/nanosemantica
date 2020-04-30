@@ -1,7 +1,7 @@
 import pytest
 from falcon import testing
 
-from falcon_app.app import create
+from nanosemantica_app.falcon_app.app import create
 
 
 @pytest.fixture()

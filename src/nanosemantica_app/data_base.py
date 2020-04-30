@@ -4,7 +4,7 @@ from sqlalchemy import create_engine, Column, Integer, String, ForeignKey
 from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy.orm import sessionmaker, relationship
 from sqlalchemy.pool import NullPool
-from src.preparation.environment_variables import get_env
+from .preparation.environment_variables import get_env
 
 log = logging.getLogger()
 Base = declarative_base()

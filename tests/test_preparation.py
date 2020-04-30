@@ -1,8 +1,8 @@
 import os
 
 import pytest
-from data_base import Component, Recipe, Item
-from preparation.preparation import process_cook_book
+from nanosemantica_app.data_base import Component, Recipe, Item
+from nanosemantica_app.preparation.preparation import process_cook_book
 
 
 def test_process_cook_book(empty_database):

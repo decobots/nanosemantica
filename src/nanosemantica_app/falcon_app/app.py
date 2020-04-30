@@ -4,9 +4,9 @@ from typing import Optional
 
 import falcon
 from falcon import request as FalconRequest, response as FalconResponse
-from falcon_app.HandleCORS import HandleCORS
-from logger import init_logging
-from data_base import DataBase, Item, Component
+from .HandleCORS import HandleCORS
+from ..logger import init_logging
+from ..data_base import DataBase, Item, Component
 
 
 class IvansHelper(object):

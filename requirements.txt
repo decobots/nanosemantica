@@ -2,7 +2,6 @@ atomicwrites==1.4.0
 attrs==19.3.0
 colorama==0.4.3
 falcon==2.0.0
--e git+https://github.com/decobots/nanosemantica.git@367fb2ab88cca3fe0bd7d0860a042d272c976ea6#egg=Ivan_s_helper
 more-itertools==8.2.0
 packaging==20.3
 pluggy==0.13.1
